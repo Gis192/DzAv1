@@ -1,2 +1,3 @@
 rootProject.name = 'DzAv1'
+include 'test'
 
