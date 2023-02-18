@@ -16,7 +16,7 @@ public  class CashBackHackerTest {
 
         int actual = service.remain(amount);
 
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
     @Test
     public void shouldReturn1() {
@@ -26,7 +26,7 @@ public  class CashBackHackerTest {
 
         int actual = service.remain(amount);
 
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
     @Test
     public void shouldReturn0() {
@@ -36,6 +36,6 @@ public  class CashBackHackerTest {
 
         int actual = service.remain(amount);
 
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 }
